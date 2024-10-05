@@ -6,14 +6,14 @@
     --tertiary-color: #c0ead9;
     --hover-color: #F50101;
 
-    --primary-font-family: "Roboto", sans-serif;
-    --secondary-font-family: "Sacramento", cursive;
-
     --primary-font-weight: 700;
     --secondary-font-weight: 400;
 
     --primary-font-size: 2.124vw;
     --secondary-font-size: 1.4vw;
+
+    --primary-font-family: "Roboto", sans-serif;
+    --secondary-font-family: "Sacramento", cursive;
 }
 
 * {
