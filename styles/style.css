@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sacramento&display=swap');
 
 :root {
-    --primary-color: #f5f5f5;
-    --secondary-color: #ff9e9e;
-    --tertiary-color: #c0ead9;
-    --hover-color: #F50101;
+    --primary-color: #FABC3F;
+    --secondary-color: #E85C0D;
+    --tertiary-color: #C7253E;
+    --hover-color: #821131;
 
     --primary-font-weight: 700;
     --secondary-font-weight: 400;
