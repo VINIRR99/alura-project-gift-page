@@ -27,11 +27,14 @@ body {
     font-style: normal;
 }
 
+.header, .hidden-header, .footer {
+    padding: 20px 0;
+    font-size: var(--secondary-font-size, 1.4vw);
+}
+
 .header, .footer {
     background-color: var(--secondary-color, #ff9e9e);
-    padding: 20px 0;
     font-family: var(--primary-font-family);
-    font-size: var(--secondary-font-size, 1.4vw);
 }
 
 .header__menu__anchor, .footer__anchor {
@@ -60,6 +63,34 @@ body {
 .header__menu__anchor {
     color: var(--tertiary-color, #c0ead9);
     font-weight: var(--primary-font-weight, 700);
+}
+
+.hidden-header {
+    visibility: hidden;
+}
+
+.title {
+    font-family: var(--primary-font-family);
+    font-weight: var(--primary-font-weight, 700);
+    font-size: var(--primary-font-size, 2.124vw);
+    color: var(--secondary-color, #ff9e9e);
+    text-align: center;
+}
+
+.home {
+    background-color: var(--primary-color, #f5f5f5);
+    padding: 50px 0;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 7vw;
+}
+
+.home__title {
+    width: 30vw;
 }
 
 .footer {
