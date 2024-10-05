@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sacramento&display=swap');
+
+:root {
+    --primary-color: #f5f5f5;
+    --secondary-color: #ff9e9e;
+    --tertiary-color: #c0ead9;
+    --hover-color: #F50101;
+
+    --primary-font-weight: 700;
+    --secondary-font-weight: 400;
+
+    --primary-font-size: 2.124vw;
+    --secondary-font-size: 1.4vw;
+
+    --primary-font-family: "Roboto", sans-serif;
+    --secondary-font-family: "Sacramento", cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    font-style: normal;
+}
+
+.header, .footer {
+    background-color: var(--secondary-color, #ff9e9e);
+    padding: 20px 0;
+    font-family: var(--primary-font-family);
+    font-size: var(--secondary-font-size, 1.4vw);
+}
+
+.header__menu__anchor, .footer__anchor {
+    text-decoration: none;
+}
+
+.header__menu__anchor:hover,
+.footer__anchor:hover,
+.header__menu__anchor:active,
+.footer__anchor:active  {
+    color: var(--hover-color, #F50101);
+}
+
+.header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    padding-left: 15vw;
+}
+
+.header__menu {
+    display: flex;
+    column-gap: 4vw;
+}
+
+.header__menu__anchor {
+    color: var(--tertiary-color, #c0ead9);
+    font-weight: var(--primary-font-weight, 700);
+}
+
+.footer {
+    color: var(--primary-color, #f5f5f5);
+    font-weight: var(--secondary-font-weight, 400);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 7px;
+}
+
+.footer__anchor {
+    color: var(--primary-color, #f5f5f5);
+}
