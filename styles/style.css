@@ -9,8 +9,8 @@
     --primary-font-weight: 700;
     --secondary-font-weight: 400;
 
-    --primary-font-size: 2.124vw;
-    --secondary-font-size: 1.4vw;
+    --primary-font-size: 2.5vw;
+    --secondary-font-size: 1.8vw;
 
     --primary-font-family: "Roboto", sans-serif;
     --secondary-font-family: "Sacramento", cursive;
@@ -29,7 +29,7 @@ body {
 
 .header, .hidden-header, .footer {
     padding: 20px 0;
-    font-size: var(--secondary-font-size, 1.4vw);
+    font-size: var(--secondary-font-size, 1.8vw);
 }
 
 .header, .footer {
@@ -69,28 +69,42 @@ body {
     visibility: hidden;
 }
 
-.title {
-    font-family: var(--primary-font-family);
-    font-weight: var(--primary-font-weight, 700);
-    font-size: var(--primary-font-size, 2.124vw);
-    color: var(--secondary-color, #ff9e9e);
+.title, .letter__text {
     text-align: center;
 }
 
-.home {
+.title {
+    font-family: var(--primary-font-family);
+    font-weight: var(--primary-font-weight, 700);
+    font-size: var(--primary-font-size, 2.5vw);
+    color: var(--secondary-color, #ff9e9e);
+}
+
+.home, .letter, .our-pictures {
     background-color: var(--primary-color, #f5f5f5);
-    padding: 50px 0;
+    padding: 50px 7vw;
+    display: flex;
 }
 
 .home {
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    column-gap: 7vw;
 }
 
 .home__title {
     width: 30vw;
+}
+
+.letter, .our-pictures {
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.letter__text {
+    font-family: var(--secondary-font-family);
+    font-weight: var(--secondary-font-weight, 400);
+    font-size: var(--secondary-font-size, 1.8vw);
+    color: var(--secondary-color, #ff9e9e);
 }
 
 .footer {
