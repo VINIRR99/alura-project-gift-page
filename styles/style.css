@@ -84,13 +84,13 @@ body {
     width: 26vw;
 }
 
-.home, .letter, .our-pictures {
+#home, #letter, #our-pictures {
     background-color: var(--primary-color, #f5f5f5);
     padding: 50px 7vw;
     display: flex;
 }
 
-.home {
+#home {
     justify-content: space-between;
     align-items: center;
 }
@@ -99,7 +99,7 @@ body {
     width: 30vw;
 }
 
-.letter, .our-pictures {
+#letter, #our-pictures {
     flex-direction: column;
     row-gap: 30px;
 }
