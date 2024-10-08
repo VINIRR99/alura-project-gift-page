@@ -91,7 +91,8 @@ body {
 }
 
 #home {
-    justify-content: space-between;
+    justify-content: center;
+    column-gap: 15vw;
     align-items: center;
 }
 
@@ -115,7 +116,6 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 50px;
 }
 
 .footer {
